@@ -56,3 +56,6 @@ function! <SID>SynStack()
     endif
     echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 endfunc
+
+" Visual selection of the text that was last modified
+nmap gV `[v`]

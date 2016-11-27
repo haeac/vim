@@ -3,10 +3,14 @@ let mapleader = ","
 set list
 set listchars=tab:▸\ ,eol:¬
 
+" Toggle list chars on and off with `,l`
 nmap <leader>l :set list!<CR>
 
 " Toggle spell checking on and off with `,s`
 nmap <silent> <leader>s :set spell!<CR>
+
+" Toggle line numbers on and off with `,n`
+nmap <silent> <leader>n :set number!<CR>
 
 " Set region to British English
 set spelllang=en_gb

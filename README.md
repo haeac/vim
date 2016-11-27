@@ -1,2 +1,2 @@
 # vim
-vim customizations
+My vim customizations

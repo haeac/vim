@@ -12,6 +12,9 @@ nmap <silent> <leader>s :set spell!<CR>
 " Toggle line numbers on and off with `,n`
 nmap <silent> <leader>n :set number!<CR>
 
+" Toggle relative line numbers on and off with `,r`
+nmap <silent> <leader>r :set relativenumber!<CR>
+
 " Set region to British English
 set spelllang=en_gb
 

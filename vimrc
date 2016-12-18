@@ -28,6 +28,7 @@ if has("autocmd")
   " Setup tabs and spaces for some languages
   autocmd FileType make setlocal ts=8 sts=8 sw=8 ai noexpandtab
   autocmd FileType yaml setlocal ts=2 sts=2 sw=2 ai expandtab
+  autocmd FileType jinja setlocal ts=2 sts=2 sw=2 ai expandtab
   autocmd FileType python setlocal ts=4 sts=4 sw=4 ai expandtab
   autocmd FileType html setlocal ts=2 sts=2 sw=2 ai expandtab
   autocmd FileType css setlocal ts=2 sts=2 sw=2 ai expandtab

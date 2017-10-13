@@ -61,5 +61,22 @@ function! <SID>SynStack()
     echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 endfunc
 
+" Turn off search highlight
+nnoremap <leader><space> :nohlsearch<CR>
 " Visual selection of the text that was last modified
 nmap gV `[v`]
+
+" Wrap long lines
+set wrap
+
+" Re-draw screen only when needed
+set lazyredraw
+
+" Highlight matching [{()}]
+set showmatch
+
+" Live search
+set incsearch
+
+" Highlight search results
+set hlsearch

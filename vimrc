@@ -13,6 +13,13 @@ let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
 " shell for syntax highlighting purposes.
 let g:is_posix = 1
 
+" Uncomment the next 3 settings if the Google Colour scheme is installed from
+" https://github.com/google/vim-colorscheme-primary
+
+" syntax enable                                                   " Setup color scheme
+
+" set t_Co=256
+" set background=dark
 set encoding=utf-8                                              " Set default file encoding
 set nocompatible                                                " Don't be compatible with vi
 set number                                                      " Activate line numbers
@@ -36,6 +43,7 @@ set backspace=2                                                 " Backspace dele
 set showcmd                                                     " Display inclomplete commands
 set ruler                                                       " Show cursor position at all times
 set diffopt+=vertical                                           " Always do vertical diffs
+set nojoinspaces                                                " Use one space, not two, after punctuation.
 
 " Toggle list chars on and off with `,l`
 nnoremap <leader>l :set list!<CR>
